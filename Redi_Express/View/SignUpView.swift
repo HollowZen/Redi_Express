@@ -17,8 +17,6 @@ struct SignUpView: View {
     
     @State var flag=false
     @State var flag2=false
-    
-    
     @StateObject var userViewModel=UserViewModel()
     
     // функция проверки правильности почты

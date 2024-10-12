@@ -1,0 +1,587 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		22BAB83F2CBA1930005158BC /* Redi_ExpressApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22BAB83E2CBA1930005158BC /* Redi_ExpressApp.swift */; };
+		22BAB8412CBA1930005158BC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22BAB8402CBA1930005158BC /* ContentView.swift */; };
+		22BAB8432CBA1932005158BC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 22BAB8422CBA1932005158BC /* Assets.xcassets */; };
+		22BAB8462CBA1932005158BC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 22BAB8452CBA1932005158BC /* Preview Assets.xcassets */; };
+		22BAB8502CBA1932005158BC /* Redi_ExpressTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22BAB84F2CBA1932005158BC /* Redi_ExpressTests.swift */; };
+		22BAB85A2CBA1932005158BC /* Redi_ExpressUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22BAB8592CBA1932005158BC /* Redi_ExpressUITests.swift */; };
+		22BAB85C2CBA1932005158BC /* Redi_ExpressUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22BAB85B2CBA1932005158BC /* Redi_ExpressUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		22BAB84C2CBA1932005158BC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 22BAB8332CBA1930005158BC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 22BAB83A2CBA1930005158BC;
+			remoteInfo = Redi_Express;
+		};
+		22BAB8562CBA1932005158BC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 22BAB8332CBA1930005158BC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 22BAB83A2CBA1930005158BC;
+			remoteInfo = Redi_Express;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		22BAB83B2CBA1930005158BC /* Redi_Express.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Redi_Express.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		22BAB83E2CBA1930005158BC /* Redi_ExpressApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Redi_ExpressApp.swift; sourceTree = "<group>"; };
+		22BAB8402CBA1930005158BC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		22BAB8422CBA1932005158BC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		22BAB8452CBA1932005158BC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		22BAB84B2CBA1932005158BC /* Redi_ExpressTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Redi_ExpressTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		22BAB84F2CBA1932005158BC /* Redi_ExpressTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Redi_ExpressTests.swift; sourceTree = "<group>"; };
+		22BAB8552CBA1932005158BC /* Redi_ExpressUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Redi_ExpressUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		22BAB8592CBA1932005158BC /* Redi_ExpressUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Redi_ExpressUITests.swift; sourceTree = "<group>"; };
+		22BAB85B2CBA1932005158BC /* Redi_ExpressUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Redi_ExpressUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		22BAB8382CBA1930005158BC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		22BAB8482CBA1932005158BC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		22BAB8522CBA1932005158BC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		22BAB8322CBA1930005158BC = {
+			isa = PBXGroup;
+			children = (
+				22BAB83D2CBA1930005158BC /* Redi_Express */,
+				22BAB84E2CBA1932005158BC /* Redi_ExpressTests */,
+				22BAB8582CBA1932005158BC /* Redi_ExpressUITests */,
+				22BAB83C2CBA1930005158BC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		22BAB83C2CBA1930005158BC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				22BAB83B2CBA1930005158BC /* Redi_Express.app */,
+				22BAB84B2CBA1932005158BC /* Redi_ExpressTests.xctest */,
+				22BAB8552CBA1932005158BC /* Redi_ExpressUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		22BAB83D2CBA1930005158BC /* Redi_Express */ = {
+			isa = PBXGroup;
+			children = (
+				22BAB83E2CBA1930005158BC /* Redi_ExpressApp.swift */,
+				22BAB8402CBA1930005158BC /* ContentView.swift */,
+				22BAB8422CBA1932005158BC /* Assets.xcassets */,
+				22BAB8442CBA1932005158BC /* Preview Content */,
+			);
+			path = Redi_Express;
+			sourceTree = "<group>";
+		};
+		22BAB8442CBA1932005158BC /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				22BAB8452CBA1932005158BC /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		22BAB84E2CBA1932005158BC /* Redi_ExpressTests */ = {
+			isa = PBXGroup;
+			children = (
+				22BAB84F2CBA1932005158BC /* Redi_ExpressTests.swift */,
+			);
+			path = Redi_ExpressTests;
+			sourceTree = "<group>";
+		};
+		22BAB8582CBA1932005158BC /* Redi_ExpressUITests */ = {
+			isa = PBXGroup;
+			children = (
+				22BAB8592CBA1932005158BC /* Redi_ExpressUITests.swift */,
+				22BAB85B2CBA1932005158BC /* Redi_ExpressUITestsLaunchTests.swift */,
+			);
+			path = Redi_ExpressUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		22BAB83A2CBA1930005158BC /* Redi_Express */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 22BAB85F2CBA1932005158BC /* Build configuration list for PBXNativeTarget "Redi_Express" */;
+			buildPhases = (
+				22BAB8372CBA1930005158BC /* Sources */,
+				22BAB8382CBA1930005158BC /* Frameworks */,
+				22BAB8392CBA1930005158BC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Redi_Express;
+			productName = Redi_Express;
+			productReference = 22BAB83B2CBA1930005158BC /* Redi_Express.app */;
+			productType = "com.apple.product-type.application";
+		};
+		22BAB84A2CBA1932005158BC /* Redi_ExpressTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 22BAB8622CBA1932005158BC /* Build configuration list for PBXNativeTarget "Redi_ExpressTests" */;
+			buildPhases = (
+				22BAB8472CBA1932005158BC /* Sources */,
+				22BAB8482CBA1932005158BC /* Frameworks */,
+				22BAB8492CBA1932005158BC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				22BAB84D2CBA1932005158BC /* PBXTargetDependency */,
+			);
+			name = Redi_ExpressTests;
+			productName = Redi_ExpressTests;
+			productReference = 22BAB84B2CBA1932005158BC /* Redi_ExpressTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		22BAB8542CBA1932005158BC /* Redi_ExpressUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 22BAB8652CBA1932005158BC /* Build configuration list for PBXNativeTarget "Redi_ExpressUITests" */;
+			buildPhases = (
+				22BAB8512CBA1932005158BC /* Sources */,
+				22BAB8522CBA1932005158BC /* Frameworks */,
+				22BAB8532CBA1932005158BC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				22BAB8572CBA1932005158BC /* PBXTargetDependency */,
+			);
+			name = Redi_ExpressUITests;
+			productName = Redi_ExpressUITests;
+			productReference = 22BAB8552CBA1932005158BC /* Redi_ExpressUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		22BAB8332CBA1930005158BC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					22BAB83A2CBA1930005158BC = {
+						CreatedOnToolsVersion = 15.2;
+					};
+					22BAB84A2CBA1932005158BC = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = 22BAB83A2CBA1930005158BC;
+					};
+					22BAB8542CBA1932005158BC = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = 22BAB83A2CBA1930005158BC;
+					};
+				};
+			};
+			buildConfigurationList = 22BAB8362CBA1930005158BC /* Build configuration list for PBXProject "Redi_Express" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 22BAB8322CBA1930005158BC;
+			productRefGroup = 22BAB83C2CBA1930005158BC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				22BAB83A2CBA1930005158BC /* Redi_Express */,
+				22BAB84A2CBA1932005158BC /* Redi_ExpressTests */,
+				22BAB8542CBA1932005158BC /* Redi_ExpressUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		22BAB8392CBA1930005158BC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22BAB8462CBA1932005158BC /* Preview Assets.xcassets in Resources */,
+				22BAB8432CBA1932005158BC /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		22BAB8492CBA1932005158BC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		22BAB8532CBA1932005158BC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		22BAB8372CBA1930005158BC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22BAB8412CBA1930005158BC /* ContentView.swift in Sources */,
+				22BAB83F2CBA1930005158BC /* Redi_ExpressApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		22BAB8472CBA1932005158BC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22BAB8502CBA1932005158BC /* Redi_ExpressTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		22BAB8512CBA1932005158BC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22BAB85A2CBA1932005158BC /* Redi_ExpressUITests.swift in Sources */,
+				22BAB85C2CBA1932005158BC /* Redi_ExpressUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		22BAB84D2CBA1932005158BC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 22BAB83A2CBA1930005158BC /* Redi_Express */;
+			targetProxy = 22BAB84C2CBA1932005158BC /* PBXContainerItemProxy */;
+		};
+		22BAB8572CBA1932005158BC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 22BAB83A2CBA1930005158BC /* Redi_Express */;
+			targetProxy = 22BAB8562CBA1932005158BC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		22BAB85D2CBA1932005158BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		22BAB85E2CBA1932005158BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		22BAB8602CBA1932005158BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Redi_Express/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "m.Redi-Express";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		22BAB8612CBA1932005158BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Redi_Express/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "m.Redi-Express";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		22BAB8632CBA1932005158BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "m.Redi-ExpressTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Redi_Express.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Redi_Express";
+			};
+			name = Debug;
+		};
+		22BAB8642CBA1932005158BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "m.Redi-ExpressTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Redi_Express.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Redi_Express";
+			};
+			name = Release;
+		};
+		22BAB8662CBA1932005158BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "m.Redi-ExpressUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Redi_Express;
+			};
+			name = Debug;
+		};
+		22BAB8672CBA1932005158BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "m.Redi-ExpressUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Redi_Express;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		22BAB8362CBA1930005158BC /* Build configuration list for PBXProject "Redi_Express" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				22BAB85D2CBA1932005158BC /* Debug */,
+				22BAB85E2CBA1932005158BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		22BAB85F2CBA1932005158BC /* Build configuration list for PBXNativeTarget "Redi_Express" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				22BAB8602CBA1932005158BC /* Debug */,
+				22BAB8612CBA1932005158BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		22BAB8622CBA1932005158BC /* Build configuration list for PBXNativeTarget "Redi_ExpressTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				22BAB8632CBA1932005158BC /* Debug */,
+				22BAB8642CBA1932005158BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		22BAB8652CBA1932005158BC /* Build configuration list for PBXNativeTarget "Redi_ExpressUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				22BAB8662CBA1932005158BC /* Debug */,
+				22BAB8672CBA1932005158BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 22BAB8332CBA1930005158BC /* Project object */;
+}

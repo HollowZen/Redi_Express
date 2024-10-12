@@ -8,12 +8,29 @@
 
 /* Begin PBXBuildFile section */
 		22BAB83F2CBA1930005158BC /* Redi_ExpressApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22BAB83E2CBA1930005158BC /* Redi_ExpressApp.swift */; };
-		22BAB8412CBA1930005158BC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22BAB8402CBA1930005158BC /* ContentView.swift */; };
 		22BAB8432CBA1932005158BC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 22BAB8422CBA1932005158BC /* Assets.xcassets */; };
 		22BAB8462CBA1932005158BC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 22BAB8452CBA1932005158BC /* Preview Assets.xcassets */; };
 		22BAB8502CBA1932005158BC /* Redi_ExpressTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22BAB84F2CBA1932005158BC /* Redi_ExpressTests.swift */; };
 		22BAB85A2CBA1932005158BC /* Redi_ExpressUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22BAB8592CBA1932005158BC /* Redi_ExpressUITests.swift */; };
 		22BAB85C2CBA1932005158BC /* Redi_ExpressUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22BAB85B2CBA1932005158BC /* Redi_ExpressUITestsLaunchTests.swift */; };
+		22BAB86F2CBA1A93005158BC /* SignUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22BAB86E2CBA1A93005158BC /* SignUpView.swift */; };
+		22BAB8712CBA1B16005158BC /* LogInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22BAB8702CBA1B16005158BC /* LogInView.swift */; };
+		22BAB8732CBA1B45005158BC /* ForgotPasswordView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22BAB8722CBA1B45005158BC /* ForgotPasswordView.swift */; };
+		22BAB8752CBA1B6E005158BC /* OTPVerificationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22BAB8742CBA1B6E005158BC /* OTPVerificationView.swift */; };
+		22BAB8772CBA1B8F005158BC /* NewPasswordView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22BAB8762CBA1B8F005158BC /* NewPasswordView.swift */; };
+		22BAB8792CBA1BB6005158BC /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22BAB8782CBA1BB6005158BC /* HomeView.swift */; };
+		22BAB87B2CBA1BF0005158BC /* CheckBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22BAB87A2CBA1BF0005158BC /* CheckBox.swift */; };
+		22BAB87D2CBA1C21005158BC /* Политика безопасности.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 22BAB87C2CBA1C21005158BC /* Политика безопасности.pdf */; };
+		22BAB87F2CBA1C44005158BC /* UserViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22BAB87E2CBA1C44005158BC /* UserViewModel.swift */; };
+		22BAB8812CBA1C60005158BC /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22BAB8802CBA1C60005158BC /* UserModel.swift */; };
+		22BAB8832CBA1CB0005158BC /* SupaBaseApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22BAB8822CBA1CB0005158BC /* SupaBaseApi.swift */; };
+		22BAB8862CBA1CFC005158BC /* Auth in Frameworks */ = {isa = PBXBuildFile; productRef = 22BAB8852CBA1CFC005158BC /* Auth */; };
+		22BAB8882CBA1CFC005158BC /* Functions in Frameworks */ = {isa = PBXBuildFile; productRef = 22BAB8872CBA1CFC005158BC /* Functions */; };
+		22BAB88A2CBA1CFC005158BC /* PostgREST in Frameworks */ = {isa = PBXBuildFile; productRef = 22BAB8892CBA1CFC005158BC /* PostgREST */; };
+		22BAB88C2CBA1CFC005158BC /* Realtime in Frameworks */ = {isa = PBXBuildFile; productRef = 22BAB88B2CBA1CFC005158BC /* Realtime */; };
+		22BAB88E2CBA1CFC005158BC /* Storage in Frameworks */ = {isa = PBXBuildFile; productRef = 22BAB88D2CBA1CFC005158BC /* Storage */; };
+		22BAB8902CBA1CFC005158BC /* Supabase in Frameworks */ = {isa = PBXBuildFile; productRef = 22BAB88F2CBA1CFC005158BC /* Supabase */; };
+		22BAB8922CBA1DF9005158BC /* Font in Resources */ = {isa = PBXBuildFile; fileRef = 22BAB8912CBA1DF9005158BC /* Font */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +53,6 @@
 /* Begin PBXFileReference section */
 		22BAB83B2CBA1930005158BC /* Redi_Express.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Redi_Express.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		22BAB83E2CBA1930005158BC /* Redi_ExpressApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Redi_ExpressApp.swift; sourceTree = "<group>"; };
-		22BAB8402CBA1930005158BC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		22BAB8422CBA1932005158BC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		22BAB8452CBA1932005158BC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		22BAB84B2CBA1932005158BC /* Redi_ExpressTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Redi_ExpressTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -44,6 +60,19 @@
 		22BAB8552CBA1932005158BC /* Redi_ExpressUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Redi_ExpressUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		22BAB8592CBA1932005158BC /* Redi_ExpressUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Redi_ExpressUITests.swift; sourceTree = "<group>"; };
 		22BAB85B2CBA1932005158BC /* Redi_ExpressUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Redi_ExpressUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		22BAB86E2CBA1A93005158BC /* SignUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpView.swift; sourceTree = "<group>"; };
+		22BAB8702CBA1B16005158BC /* LogInView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogInView.swift; sourceTree = "<group>"; };
+		22BAB8722CBA1B45005158BC /* ForgotPasswordView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgotPasswordView.swift; sourceTree = "<group>"; };
+		22BAB8742CBA1B6E005158BC /* OTPVerificationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OTPVerificationView.swift; sourceTree = "<group>"; };
+		22BAB8762CBA1B8F005158BC /* NewPasswordView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewPasswordView.swift; sourceTree = "<group>"; };
+		22BAB8782CBA1BB6005158BC /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		22BAB87A2CBA1BF0005158BC /* CheckBox.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckBox.swift; sourceTree = "<group>"; };
+		22BAB87C2CBA1C21005158BC /* Политика безопасности.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Политика безопасности.pdf"; sourceTree = "<group>"; };
+		22BAB87E2CBA1C44005158BC /* UserViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserViewModel.swift; sourceTree = "<group>"; };
+		22BAB8802CBA1C60005158BC /* UserModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserModel.swift; sourceTree = "<group>"; };
+		22BAB8822CBA1CB0005158BC /* SupaBaseApi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SupaBaseApi.swift; sourceTree = "<group>"; };
+		22BAB8912CBA1DF9005158BC /* Font */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Font; sourceTree = "<group>"; };
+		22BAB8932CBA1E15005158BC /* Redi-Express-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Redi-Express-Info.plist"; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +80,12 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				22BAB88A2CBA1CFC005158BC /* PostgREST in Frameworks */,
+				22BAB8882CBA1CFC005158BC /* Functions in Frameworks */,
+				22BAB8902CBA1CFC005158BC /* Supabase in Frameworks */,
+				22BAB8862CBA1CFC005158BC /* Auth in Frameworks */,
+				22BAB88E2CBA1CFC005158BC /* Storage in Frameworks */,
+				22BAB88C2CBA1CFC005158BC /* Realtime in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -94,8 +129,12 @@
 		22BAB83D2CBA1930005158BC /* Redi_Express */ = {
 			isa = PBXGroup;
 			children = (
+				22BAB8932CBA1E15005158BC /* Redi-Express-Info.plist */,
+				22BAB86B2CBA1A29005158BC /* Common */,
+				22BAB86A2CBA1A15005158BC /* View */,
+				22BAB8692CBA1A0D005158BC /* ViewModel */,
+				22BAB8682CBA1A04005158BC /* Model */,
 				22BAB83E2CBA1930005158BC /* Redi_ExpressApp.swift */,
-				22BAB8402CBA1930005158BC /* ContentView.swift */,
 				22BAB8422CBA1932005158BC /* Assets.xcassets */,
 				22BAB8442CBA1932005158BC /* Preview Content */,
 			);
@@ -127,6 +166,46 @@
 			path = Redi_ExpressUITests;
 			sourceTree = "<group>";
 		};
+		22BAB8682CBA1A04005158BC /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				22BAB8802CBA1C60005158BC /* UserModel.swift */,
+				22BAB8822CBA1CB0005158BC /* SupaBaseApi.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		22BAB8692CBA1A0D005158BC /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				22BAB87E2CBA1C44005158BC /* UserViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		22BAB86A2CBA1A15005158BC /* View */ = {
+			isa = PBXGroup;
+			children = (
+				22BAB86E2CBA1A93005158BC /* SignUpView.swift */,
+				22BAB8702CBA1B16005158BC /* LogInView.swift */,
+				22BAB8722CBA1B45005158BC /* ForgotPasswordView.swift */,
+				22BAB8742CBA1B6E005158BC /* OTPVerificationView.swift */,
+				22BAB8762CBA1B8F005158BC /* NewPasswordView.swift */,
+				22BAB8782CBA1BB6005158BC /* HomeView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		22BAB86B2CBA1A29005158BC /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				22BAB8912CBA1DF9005158BC /* Font */,
+				22BAB87C2CBA1C21005158BC /* Политика безопасности.pdf */,
+				22BAB87A2CBA1BF0005158BC /* CheckBox.swift */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -143,6 +222,14 @@
 			dependencies = (
 			);
 			name = Redi_Express;
+			packageProductDependencies = (
+				22BAB8852CBA1CFC005158BC /* Auth */,
+				22BAB8872CBA1CFC005158BC /* Functions */,
+				22BAB8892CBA1CFC005158BC /* PostgREST */,
+				22BAB88B2CBA1CFC005158BC /* Realtime */,
+				22BAB88D2CBA1CFC005158BC /* Storage */,
+				22BAB88F2CBA1CFC005158BC /* Supabase */,
+			);
 			productName = Redi_Express;
 			productReference = 22BAB83B2CBA1930005158BC /* Redi_Express.app */;
 			productType = "com.apple.product-type.application";
@@ -215,6 +302,9 @@
 				Base,
 			);
 			mainGroup = 22BAB8322CBA1930005158BC;
+			packageReferences = (
+				22BAB8842CBA1CFC005158BC /* XCRemoteSwiftPackageReference "supabase-swift" */,
+			);
 			productRefGroup = 22BAB83C2CBA1930005158BC /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -232,7 +322,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				22BAB8462CBA1932005158BC /* Preview Assets.xcassets in Resources */,
+				22BAB87D2CBA1C21005158BC /* Политика безопасности.pdf in Resources */,
 				22BAB8432CBA1932005158BC /* Assets.xcassets in Resources */,
+				22BAB8922CBA1DF9005158BC /* Font in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -257,7 +349,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				22BAB8412CBA1930005158BC /* ContentView.swift in Sources */,
+				22BAB87B2CBA1BF0005158BC /* CheckBox.swift in Sources */,
+				22BAB8772CBA1B8F005158BC /* NewPasswordView.swift in Sources */,
+				22BAB8792CBA1BB6005158BC /* HomeView.swift in Sources */,
+				22BAB8712CBA1B16005158BC /* LogInView.swift in Sources */,
+				22BAB8752CBA1B6E005158BC /* OTPVerificationView.swift in Sources */,
+				22BAB86F2CBA1A93005158BC /* SignUpView.swift in Sources */,
+				22BAB8732CBA1B45005158BC /* ForgotPasswordView.swift in Sources */,
+				22BAB8832CBA1CB0005158BC /* SupaBaseApi.swift in Sources */,
+				22BAB87F2CBA1C44005158BC /* UserViewModel.swift in Sources */,
+				22BAB8812CBA1C60005158BC /* UserModel.swift in Sources */,
 				22BAB83F2CBA1930005158BC /* Redi_ExpressApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -424,6 +525,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"Redi_Express/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Redi-Express-Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -452,6 +554,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"Redi_Express/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Redi-Express-Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -582,6 +685,50 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		22BAB8842CBA1CFC005158BC /* XCRemoteSwiftPackageReference "supabase-swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/supabase/supabase-swift.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.5.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		22BAB8852CBA1CFC005158BC /* Auth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 22BAB8842CBA1CFC005158BC /* XCRemoteSwiftPackageReference "supabase-swift" */;
+			productName = Auth;
+		};
+		22BAB8872CBA1CFC005158BC /* Functions */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 22BAB8842CBA1CFC005158BC /* XCRemoteSwiftPackageReference "supabase-swift" */;
+			productName = Functions;
+		};
+		22BAB8892CBA1CFC005158BC /* PostgREST */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 22BAB8842CBA1CFC005158BC /* XCRemoteSwiftPackageReference "supabase-swift" */;
+			productName = PostgREST;
+		};
+		22BAB88B2CBA1CFC005158BC /* Realtime */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 22BAB8842CBA1CFC005158BC /* XCRemoteSwiftPackageReference "supabase-swift" */;
+			productName = Realtime;
+		};
+		22BAB88D2CBA1CFC005158BC /* Storage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 22BAB8842CBA1CFC005158BC /* XCRemoteSwiftPackageReference "supabase-swift" */;
+			productName = Storage;
+		};
+		22BAB88F2CBA1CFC005158BC /* Supabase */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 22BAB8842CBA1CFC005158BC /* XCRemoteSwiftPackageReference "supabase-swift" */;
+			productName = Supabase;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 22BAB8332CBA1930005158BC /* Project object */;
 }

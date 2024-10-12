@@ -11,7 +11,7 @@ import SwiftUI
 struct Redi_ExpressApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            SignUpView()
         }
     }
 }

@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "8754291F-6BCB-48FF-A816-759FFD977CEA"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "AE939D3B-EE7F-46DF-AD70-B455F19BC03C"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Redi_Express/ViewModel/UserViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "58"
+            endingLineNumber = "58"
+            landmarkName = "logIn()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "AE939D3B-EE7F-46DF-AD70-B455F19BC03C - add6ac1522cb8c5a"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(3) suspend resume partial function for closure #1 @Sendable () async -&gt; () in Redi_Express.UserViewModel.logIn() -&gt; ()"
+                  moduleName = "Redi_Express"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/useruser/Documents/Redi_Express/Redi_Express/Redi_Express/ViewModel/UserViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "58"
+                  endingLineNumber = "58"
+                  offsetFromSymbolStart = "63">
+               </Location>
+               <Location
+                  uuid = "AE939D3B-EE7F-46DF-AD70-B455F19BC03C - 442deab4ba2541c2"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(4) await resume partial function for closure #1 @Sendable () async -&gt; () in Redi_Express.UserViewModel.logIn() -&gt; ()"
+                  moduleName = "Redi_Express"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/useruser/Documents/Redi_Express/Redi_Express/Redi_Express/ViewModel/UserViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "58"
+                  endingLineNumber = "58"
+                  offsetFromSymbolStart = "45">
+               </Location>
+               <Location
+                  uuid = "AE939D3B-EE7F-46DF-AD70-B455F19BC03C - 77df5d978f20c858"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(5) suspend resume partial function for closure #1 @Sendable () async -&gt; () in Redi_Express.UserViewModel.logIn() -&gt; ()"
+                  moduleName = "Redi_Express"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/useruser/Documents/Redi_Express/Redi_Express/Redi_Express/ViewModel/UserViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "58"
+                  endingLineNumber = "58"
+                  offsetFromSymbolStart = "31">
+               </Location>
+               <Location
+                  uuid = "AE939D3B-EE7F-46DF-AD70-B455F19BC03C - 1cce752986eaa25d"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(8) suspend resume partial function for closure #1 @Sendable () async -&gt; () in Redi_Express.UserViewModel.logIn() -&gt; ()"
+                  moduleName = "Redi_Express"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/useruser/Documents/Redi_Express/Redi_Express/Redi_Express/ViewModel/UserViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "58"
+                  endingLineNumber = "58"
+                  offsetFromSymbolStart = "70">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
